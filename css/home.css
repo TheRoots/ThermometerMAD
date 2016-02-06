@@ -16,7 +16,7 @@ body{
     position: absolute;
     top: 30%;
     left: 50%;
-    margin-left: 300px;
+    margin-left: -300px;
     width:600px;
     font-family: 'Arimo', sans-serif;
 }
