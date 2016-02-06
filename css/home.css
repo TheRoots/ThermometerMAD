@@ -134,6 +134,16 @@ body{
     
 }
 
+.fb_btn{
+    border: 2px solid blue;
+    background-color: blue;
+}
+
+.ggl_btn{
+    border: 2px solid red;
+    background-color: red;
+}
+
 .intro_bttn:hover{
     background-color: #fcfcfc;
     border: 2px solid #fcfcfc;
