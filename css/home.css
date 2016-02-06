@@ -32,6 +32,8 @@ body{
 }
 
 #descr{
+    opacity: 1;
+    
     -webkit-animation: fadelayed 4s; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadelayed 4s; /* Firefox < 16 */
     -ms-animation: fadelayed 4s; /* Internet Explorer */
@@ -79,25 +81,25 @@ body{
 @-moz-keyframes slidedict{
     0%{ top:50%; opacity: 0; margin-top: -180px;}
     40%{ top:50%; opacity: 0;  margin-top: -180px;}
-    100% {top:50%; opacity: 1; margin-top: -130px;}
+    100% {top:50%; opacity: 1; margin-top: 0px;}
 }
 
 @-ms-keyframes slidedict{
     0%{ top:50%; opacity: 0; margin-top: -180px;}
     40%{ top:50%; opacity: 0;  margin-top: -180px;}
-    100% {top:50%; opacity: 1; margin-top: -130px;}
+    100% {top:50%; opacity: 1; margin-top: 0px;}
 }
 
 @-o-keyframes slidedict{
     0%{ top:50%; opacity: 0; margin-top: -180px;}
     40%{ top:50%; opacity: 0;  margin-top: -180px;}
-    100% {top:50%; opacity: 1; margin-top: -130px;}
+    100% {top:50%; opacity: 1; margin-top: 0px;}
 }
 
 @-webkit-keyframes slidedict{
     0%{ top:50%; opacity: 0; margin-top: -180px;}
     40%{ top:50%; opacity: 0;  margin-top: -180px;}
-    100% {top:50%; opacity: 1; margin-top: -130px;}
+    100% {top:50%; opacity: 1; margin-top: 0px;}
 }
 
 /*Delayed buttons fade-in*/
