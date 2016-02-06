@@ -1,4 +1,5 @@
 # Heatmad
+---
 Mapa de calor en tiempo real que muestra la vida nocturna madrileña recogiendo
 datos a traves de distintas fuentes (potencialmente). Estos datos muestran los
 lugares donde los usuarios están de fiesta, asistiendo a eventos o reuniones sociales.
@@ -10,3 +11,5 @@ Madrid para recolecolectar datos, pero potencialmente se pueden extraer estos da
 de otras muchas fuentes. Para mostrar los datos en el mapa se ha utilizado CartoDB
 y este se ha embebido en una página web que actualmente esta hosteada gracias a 
 Github Pages.
+
+El mapa de CartoDB se puede visualizar en el siguiente [enlace]().
