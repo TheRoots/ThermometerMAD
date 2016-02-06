@@ -11,4 +11,4 @@ de otras muchas fuentes. Para mostrar los datos en el mapa se ha utilizado Carto
 y este se ha embebido en una página web que actualmente esta hosteada gracias a 
 Github Pages.
 
-El mapa de CartoDB se puede visualizar en el siguiente [enlace]().
+La demo se puede visualizar en el siguiente [enlace](https://theroots.github.io/ThermometerMAD/).
