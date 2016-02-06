@@ -27,7 +27,7 @@
     align-self: center;
 }
 
-.hlink #title {
+.hlink {
     text-decoration: none;
     color: darkgray;
     font-size: 16px;
