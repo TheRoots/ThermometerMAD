@@ -36,14 +36,14 @@
     
     
     <div id="bttns">
-        <div id="btn_contact" class="intro_bttn">Log in/Register</div>
+        <a style="text-decoration:none" href="#join"><div id="btn_contact" class="intro_bttn">Log in/Register</div></a>
     </div>
     <a id="godown"><i class="fa fa-angle-down fa-3x"></i></a>
 </div>
     
 <!--next 100% parallax-->
 <div id="about" style="width:100%; background-color: rgba(0,0,0,0.5);" data-parallax="scroll" data-image-src="https://TheRoots.github.io/ThermometerMAD/images/bg3_resized.jpg">
-        <h1 style="margin-top:300px;">Join the heat wave.</h1>
+        <h1 id="join" style="margin-top:300px;">Join the heat wave.</h1>
     <div style='margin-top:30px; text-align:center'>
         <div class="intro_bttn fb_btn">Login with Facebook</div>
         <div class="intro_bttn ggl_btn">Login with Google</div>
@@ -56,5 +56,8 @@
     </form>
     
 </div> 
+<script>
+    smoothScroll.init();
+</script>
 </body>
 </html>
