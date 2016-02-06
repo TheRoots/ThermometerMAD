@@ -22,19 +22,12 @@
     margin-left: 16px;  
 }
 
-#title{
-    margin-top: 20%;
-    color: darkgray;
-    font-family: 'Arimo', sans-serif;
-    font-size: 16px;
-}
-
 #hnav{
     margin-right: 16px;
     align-self: center;
 }
 
-.hlink {
+.hlink #title {
     text-decoration: none;
     color: darkgray;
     font-size: 16px;
