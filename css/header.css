@@ -8,6 +8,7 @@
     width: 100%;
     height: 50px;
     transition: top 0.4s ease-in-out;
+    background-color: rgba(0,0,0,0.6);
 }
 
 .header-up{
@@ -21,8 +22,8 @@
     margin-left: 16px;  
 }
 
-#Title{
-    margin-top: 100px;
+#title{
+    margin-top: 20%;
     color: darkgray;
     font-family: 'Arimo', sans-serif;
     font-size: 16px;
