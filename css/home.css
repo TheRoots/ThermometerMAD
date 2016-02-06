@@ -24,7 +24,7 @@ body{
 #name{
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
-    color: #fcfcfc;
+    color: #e41b36;
     font-size: 40px;
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 2s; /* Firefox < 16 */
