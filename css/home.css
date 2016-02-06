@@ -151,7 +151,7 @@ body{
 .fb_btn:hover{
     background-color: #8b9dc3;
     border: 2px solid #8b9dc3;
-    color: dimgray;
+    color: white;
 }
 
 .ggl_btn{
@@ -163,7 +163,7 @@ body{
 .ggl_btn:hover{
     background-color: #f07f75;
     border: 2px solid #f07f75;
-    color: dimgray;
+    color: white;
 }
 
 
