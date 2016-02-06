@@ -1,5 +1,4 @@
-## Heatmad
----
+# Heatmad
 Mapa de calor en tiempo real que muestra la vida nocturna madrileña recogiendo
 datos a traves de distintas fuentes (potencialmente). Estos datos muestran los
 lugares donde los usuarios están de fiesta, asistiendo a eventos o reuniones sociales.
