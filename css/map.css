@@ -1,11 +1,11 @@
 #cartodb{
-    height: calc(100% - 50px);
+    height: calc(100% - 81px);
     /* Firefox */
-    height: -moz-calc(100% - 50px);
+    height: -moz-calc(100% - 81px);
     /* WebKit */
-    height: -webkit-calc(100% - 50px);
+    height: -webkit-calc(100% - 81px);
     /* Opera */
-    height: -o-calc(100% - 50px);
+    height: -o-calc(100% - 81px);
     /* Standard */
-    height: calc(100% - 50px);
+    height: calc(100% - 81px);
 }
