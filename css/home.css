@@ -36,11 +36,11 @@ body{
 #descr{
     opacity: 1;
     
-    -webkit-animation: fadelayed 2s; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadelayed 2s; /* Firefox < 16 */
-    -ms-animation: fadelayed 2s; /* Internet Explorer */
-    -o-animation: fadelayed 2s; /* Opera < 12.1 */
-    animation: fadelayed 2s;
+    -webkit-animation: fadelayed 4s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadelayed 4s; /* Firefox < 16 */
+    -ms-animation: fadelayed 4s; /* Internet Explorer */
+    -o-animation: fadelayed 4s; /* Opera < 12.1 */
+    animation: fadelayed 4s;
 }
 
 /*Name fade-in*/
@@ -139,6 +139,8 @@ body{
 #bttns{
     position: absolute;
     top: 50%;
+    left: 50%;
+    margin-left: -250px;
     width: 500px;
     height: 32px;
     margin-top: 80px;
