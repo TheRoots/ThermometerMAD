@@ -22,16 +22,10 @@ $(document).ready(function(){
     //smooth scroll contact
     $("#btn_contact").click(function() {
         $('html,body').animate({
-            scrollTop: $("#contact").offset().top},
+            scrollTop: $("#join").offset().top},
         'slow');
     });
-    
-    //smooth scroll about
-    $("#godown").click(function() {
-        $('html,body').animate({
-            scrollTop: $("#about").offset().top},
-        'slow');
-    });
+
     
     
 });
