@@ -1,5 +1,5 @@
 *{
-    color: darkgray;
+    color: white;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -16,13 +16,12 @@ body{
     position: absolute;
     top: 50%;
     left: 50%;
-    width:520px;
+    width:600px;
     margin-top: -200px;
     margin-left: -250px;
 }
 
 #name{
-    
     font-family: 'Arimo', sans-serif;
     font-weight: 200;
     color: #fcfcfc;
