@@ -14,7 +14,7 @@ body{
 
 #centerholder{
     position: absolute;
-    top: 45%;
+    top: 35%;
     left: 50%;
     margin-left: -300px;
     width:600px;
@@ -75,33 +75,33 @@ body{
 
 /*Sliding definitions under name*/
 @keyframes slidedict{
-    0%{ top:50%; opacity: 0; margin-top: -50px;}
-    50%{ top:50%; opacity: 0;  margin-top: -50px;}
-    100% {top:50%; opacity: 1; margin-top: 0px;}
+    0%{opacity: 0; margin-top: -50px;}
+    50%{opacity: 0;  margin-top: -50px;}
+    100% {opacity: 1; margin-top: 0px;}
 }
 
 @-moz-keyframes slidedict{
-    0%{ top:50%; opacity: 0; margin-top: -50px;}
-    50%{ top:50%; opacity: 0;  margin-top: -50px;}
-    100% {top:50%; opacity: 1; margin-top: 0px;}
+    0%{opacity: 0; margin-top: -50px;}
+    50%{opacity: 0;  margin-top: -50px;}
+    100% {opacity: 1; margin-top: 0px;}
 }
 
 @-ms-keyframes slidedict{
-    0%{ top:50%; opacity: 0; margin-top: -50px;}
-    50%{ top:50%; opacity: 0;  margin-top: -50px;}
-    100% {top:50%; opacity: 1; margin-top: 0px;}
+    0%{opacity: 0; margin-top: -50px;}
+    50%{opacity: 0;  margin-top: -50px;}
+    100% {opacity: 1; margin-top: 0px;}
 }
 
 @-o-keyframes slidedict{
-    0%{ top:50%; opacity: 0; margin-top: -50px;}
-    50%{ top:50%; opacity: 0;  margin-top: -50px;}
-    100% {top:50%; opacity: 1; margin-top: 0px;}
+    0%{opacity: 0; margin-top: -50px;}
+    50%{opacity: 0;  margin-top: -50px;}
+    100% {opacity: 1; margin-top: 0px;}
 }
 
 @-webkit-keyframes slidedict{
-    0%{ top:50%; opacity: 0; margin-top: -50px;}
-    50%{ top:50%; opacity: 0;  margin-top: -50px;}
-    100% {top:50%; opacity: 1; margin-top: 0px;}
+    0%{opacity: 0; margin-top: -50px;}
+    50%{opacity: 0;  margin-top: -50px;}
+    100% {opacity: 1; margin-top: 0px;}
 }
 
 /*Delayed buttons fade-in*/
@@ -160,6 +160,10 @@ body{
     transition: background-color 0.5s ease-out;
     transition: color 0.5s ease out;
     
+    
+}
+
+#btn_contact{
     -webkit-animation: slidedict 4s; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: slidedict 4s; /* Firefox < 16 */
     -ms-animation: slidedict 4s; /* Internet Explorer */
