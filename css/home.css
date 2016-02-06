@@ -14,7 +14,7 @@ body{
 
 #centerholder{
     position: absolute;
-    top: 30%;
+    top: 45%;
     left: 50%;
     margin-left: -300px;
     width:600px;
@@ -76,62 +76,62 @@ body{
 /*Sliding definitions under name*/
 @keyframes slidedict{
     0%{ top:50%; opacity: 0; margin-top: -50px;}
-    40%{ top:50%; opacity: 0;  margin-top: -50px;}
+    50%{ top:50%; opacity: 0;  margin-top: -50px;}
     100% {top:50%; opacity: 1; margin-top: 0px;}
 }
 
 @-moz-keyframes slidedict{
     0%{ top:50%; opacity: 0; margin-top: -50px;}
-    60%{ top:50%; opacity: 0;  margin-top: -50px;}
+    50%{ top:50%; opacity: 0;  margin-top: -50px;}
     100% {top:50%; opacity: 1; margin-top: 0px;}
 }
 
 @-ms-keyframes slidedict{
     0%{ top:50%; opacity: 0; margin-top: -50px;}
-    60%{ top:50%; opacity: 0;  margin-top: -50px;}
+    50%{ top:50%; opacity: 0;  margin-top: -50px;}
     100% {top:50%; opacity: 1; margin-top: 0px;}
 }
 
 @-o-keyframes slidedict{
     0%{ top:50%; opacity: 0; margin-top: -50px;}
-    60%{ top:50%; opacity: 0;  margin-top: -50px;}
+    50%{ top:50%; opacity: 0;  margin-top: -50px;}
     100% {top:50%; opacity: 1; margin-top: 0px;}
 }
 
 @-webkit-keyframes slidedict{
     0%{ top:50%; opacity: 0; margin-top: -50px;}
-    60%{ top:50%; opacity: 0;  margin-top: -50px;}
+    50%{ top:50%; opacity: 0;  margin-top: -50px;}
     100% {top:50%; opacity: 1; margin-top: 0px;}
 }
 
 /*Delayed buttons fade-in*/
 @keyframes fadelayed{
     0%{ opacity: 0;}
-    70%{ opacity: 0;}
+    40%{ opacity: 0;}
     100%{ opacity: 1;}
 }
 
 @-moz-keyframes fadelayed{
     0%{ opacity: 0;}
-    70%{ opacity: 0;}
+    40%{ opacity: 0;}
     100%{ opacity: 1;}
 }
 
 @-ms-keyframes fadelayed{
     0%{ opacity: 0;}
-    70%{ opacity: 0;}
+    40%{ opacity: 0;}
     100%{ opacity: 1;}
 }
 
 @-o-keyframes fadelayed{
     0%{ opacity: 0;}
-    70%{ opacity: 0;}
+    40%{ opacity: 0;}
     100%{ opacity: 1;}
 }
 
 @-webkit-keyframes fadelayed{
     0%{ opacity: 0;}
-    70%{ opacity: 0;}
+    40%{ opacity: 0;}
     100%{ opacity: 1;}
 }
 
