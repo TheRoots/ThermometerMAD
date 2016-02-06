@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*-
 
 import time
 import sys
@@ -11,23 +10,13 @@ from tweepy import OAuthHandler
 from tweepy.streaming import StreamListener
 
 
-class listener(StreamListener):
-
-  """
-  Descripcion: escuchar todos los tweets con hashtag '#heatMAD' con localizacion y meterlos en un csv.
-  """
-  def on_status(self, status):
-    if status.coordinates:
-      with open('coords.csv', 'a') as f:
-        f.write(str(status.coordinates).split(':')[2][2:-2]+'\n')
-    return True
-
-  on_event = on_status
-
-  def on_error(self, status):
-    print status
-
 def main():
+
+  """
+  Descripcion: usado solo para recolectar datos que se han mostrado en la presentacion del proyecto,
+    recolectar todos los tweets con el hashtag '#heatMAD' y que tengan una localizacion y meterlos 
+    en un archivo csv.
+  """
 
   # Bot authentication.
   CONSUMER_KEY = ''
@@ -39,15 +28,17 @@ def main():
   auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
 
   api = tweepy.API(auth_handler=auth)
-	
-  twitterStream = Stream(auth, listener())
-  twitterStream.filter(track=['heatMAD'])
 
+  hashtags = api.search(q="heatMAD")
+
+  with open('coord.csv', 'a') as f:
+    for status in hashtags:
+      if status.coordinates:
+        f.write(str(status.coordinates).split(':')[2][2:-2]+', '+status.user.name.encode('utf8')+', "'+status.text.encode('utf8')+'"\n')
+  
 if __name__ == '__main__':
 
   try:
     main()
   except KeyboardInterrupt:
     quit()
-
-
