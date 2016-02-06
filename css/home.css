@@ -126,16 +126,12 @@ body{
     cursor: pointer;
     transition: background-color 0.5s ease-out;
     transition: color 0.5s ease out;
-    
-    
-}
-
-#btn_contact{
-    -webkit-animation: fadelayed 4s; /* Safari, Chrome and Opera > 12.1 */
+     -webkit-animation: fadelayed 4s; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadelayed 4s; /* Firefox < 16 */
     -ms-animation: fadelayed 4s; /* Internet Explorer */
     -o-animation: fadelayed 4s; /* Opera < 12.1 */
     animation: fadelayed 4s;
+    
 }
 
 .intro_bttn:hover{
