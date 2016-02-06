@@ -16,7 +16,7 @@
 }
 
 #logo{
-    text-align: center;
+    position: relative;
     margin-top: 10px;
     height:25px;
     margin-left: 16px;  
