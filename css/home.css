@@ -142,19 +142,23 @@ body{
 
 
 .fb_btn{
-    border: 2px solid blue;
-    background-color: blue;
+    border: 2px solid #3b5998;
+    background-color: #3b5998;
+    transition: background-color 0.5s ease-out;
+    transition: color 0.5s ease out;
 }
 
 .fb_btn:hover{
-    background-color: blue;
-    border: 2px solid blue;
+    background-color: #8b9dc3;
+    border: 2px solid #8b9dc3;
     color: dimgray;
 }
 
 .ggl_btn{
-    border: 2px solid red;
-    background-color: red;
+    border: 2px solid #ea4335;
+    background-color: #ea4335;
+    transition: background-color 0.5s ease-out;
+    transition: color 0.5s ease out;
 }
 .ggl_btn:hover{
     background-color: #fcfcfc;
