@@ -10,9 +10,3 @@
     /* Standard */
     height: calc(100% - 18px);
 }
-
-#tw_float{
-    z-index: 100;
-    float: right;
-    margin-top: 20%;
-}
