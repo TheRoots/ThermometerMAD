@@ -4,13 +4,13 @@ body{
 
 #cartodb{
     z-index: 50;
-    height: calc(100% - 15px);
+    height: calc(100% - 12px);
     /* Firefox */
-    height: -moz-calc(100% - 15px);
+    height: -moz-calc(100% - 12px);
     /* WebKit */
-    height: -webkit-calc(100% - 15px);
+    height: -webkit-calc(100% - 12px);
     /* Opera */
-    height: -o-calc(100% - 15px);
+    height: -o-calc(100% - 12px);
     /* Standard */
-    height: calc(100% - 15px);
+    height: calc(100% - 12px);
 }
