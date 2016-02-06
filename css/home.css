@@ -24,7 +24,7 @@ body{
 #name{
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
-    color: #e41b36;
+    color: #fcfcfc;
     font-size: 40px;
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 2s; /* Firefox < 16 */
@@ -136,7 +136,7 @@ body{
 .intro_bttn:hover{
     background-color: #fcfcfc;
     border: 2px solid #fcfcfc;
-    color: darkgray;
+    color: #e41b36;
     
 }
 
