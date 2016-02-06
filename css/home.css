@@ -34,13 +34,11 @@ body{
 }
 
 #descr{
-    opacity: 1;
-    
-    -webkit-animation: fadelayed 4s; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadelayed 4s; /* Firefox < 16 */
-    -ms-animation: fadelayed 4s; /* Internet Explorer */
-    -o-animation: fadelayed 4s; /* Opera < 12.1 */
-    animation: fadelayed 4s;
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s; /* Firefox < 16 */
+    -ms-animation: fadein 2s; /* Internet Explorer */
+    -o-animation: fadein 2s; /* Opera < 12.1 */
+    animation: fadein 2s;
 }
 
 /*Name fade-in*/
@@ -71,37 +69,6 @@ body{
 @-o-keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
-}
-
-/*Sliding definitions under name*/
-@keyframes slidedict{
-    0%{opacity: 0; margin-top: -50px;}
-    50%{opacity: 0;  margin-top: -50px;}
-    100% {opacity: 1; margin-top: 0px;}
-}
-
-@-moz-keyframes slidedict{
-    0%{opacity: 0; margin-top: -50px;}
-    50%{opacity: 0;  margin-top: -50px;}
-    100% {opacity: 1; margin-top: 0px;}
-}
-
-@-ms-keyframes slidedict{
-    0%{opacity: 0; margin-top: -50px;}
-    50%{opacity: 0;  margin-top: -50px;}
-    100% {opacity: 1; margin-top: 0px;}
-}
-
-@-o-keyframes slidedict{
-    0%{opacity: 0; margin-top: -50px;}
-    50%{opacity: 0;  margin-top: -50px;}
-    100% {opacity: 1; margin-top: 0px;}
-}
-
-@-webkit-keyframes slidedict{
-    0%{opacity: 0; margin-top: -50px;}
-    50%{opacity: 0;  margin-top: -50px;}
-    100% {opacity: 1; margin-top: 0px;}
 }
 
 /*Delayed buttons fade-in*/
