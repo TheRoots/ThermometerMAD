@@ -12,7 +12,7 @@ body{
     background-color: #333333;
 }
 
-#nameholder{
+#centerholder{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -20,7 +20,9 @@ body{
     margin-top: -200px;
     margin-left: -250px;
 }
+
 #name{
+    
     font-family: 'Arimo', sans-serif;
     font-weight: 200;
     color: #fcfcfc;
@@ -185,17 +187,6 @@ body{
 #intro i:hover{
     color: darkgray;
     cursor: pointer;
-}
-
-#parallax_bg h1{
-    position: absolute;
-    margin-top: 50%;
-}
-#parallax_bg h4{
-    position: absolute;
-    margin-top: 60%;
-    max-width: 70%;
-    text-align: center;
 }
 
 #about{
