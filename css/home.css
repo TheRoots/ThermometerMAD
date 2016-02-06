@@ -1,6 +1,6 @@
 *{
     color: white;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Arimo', sans-serif;
 }
 
 #intro{
@@ -19,7 +19,7 @@ body{
 }
 
 #name{
-    font-family: 'Arimo', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     color: #fcfcfc;
     font-size: 40px;
