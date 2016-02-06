@@ -133,23 +133,35 @@ body{
     animation: fadelayed 4s;
     
 }
-
-.fb_btn{
-    border: 2px solid blue;
-    background-color: blue;
-}
-
-.ggl_btn{
-    border: 2px solid red;
-    background-color: red;
-}
-
 .intro_bttn:hover{
     background-color: #fcfcfc;
     border: 2px solid #fcfcfc;
     color: darkgray;
     
 }
+
+
+.fb_btn{
+    border: 2px solid blue;
+    background-color: blue;
+}
+
+.fb_btn:hover{
+    background-color: blue;
+    border: 2px solid blue;
+    color: dimgray;
+}
+
+.ggl_btn{
+    border: 2px solid red;
+    background-color: red;
+}
+.ggl_btn:hover{
+    background-color: #fcfcfc;
+    border: 2px solid #fcfcfc;
+    color: dimgray;
+}
+
 
 #godown{
     -webkit-animation: fadelayed 4s; /* Safari, Chrome and Opera > 12.1 */
