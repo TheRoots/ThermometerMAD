@@ -31,6 +31,14 @@ body{
     animation: fadein 2s;
 }
 
+#descr{
+    -webkit-animation: fadelayed 4s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadelayed 4s; /* Firefox < 16 */
+    -ms-animation: fadelayed 4s; /* Internet Explorer */
+    -o-animation: fadelayed 4s; /* Opera < 12.1 */
+    animation: fadelayed 4s;
+}
+
 /*Name fade-in*/
 @keyframes fadein {
     from { opacity: 0; }
@@ -135,6 +143,7 @@ body{
 .intro_bttn{
     font-family: "Arimo", sans-serif;
     display: inline-block;
+    padding: 8px;
     padding-left: 24px;
     padding-right: 24px;
     color: #fcfcfc;
@@ -145,11 +154,11 @@ body{
     transition: background-color 0.5s ease-out;
     transition: color 0.5s ease out;
     
-    -webkit-animation: fadelayed 4s; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadelayed 7s; /* Firefox < 16 */
-    -ms-animation: fadelayed 7s; /* Internet Explorer */
-    -o-animation: fadelayed 7s; /* Opera < 12.1 */
-    animation: fadelayed 7s;
+    -webkit-animation: slidedict 6s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: slidedict 6s; /* Firefox < 16 */
+    -ms-animation: slidedict 6s; /* Internet Explorer */
+    -o-animation: slidedict 6s; /* Opera < 12.1 */
+    animation: slidedict 6s;
 }
 
 .intro_bttn:hover{
