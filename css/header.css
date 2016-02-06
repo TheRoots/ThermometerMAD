@@ -39,7 +39,7 @@
     transition: color 0.4s ease-out; 
 
 }
-.hlink:hover{color: #178060;}
+.hlink:hover{color: #db432c;}
 
 #menu{
     display: inline-block;
@@ -48,7 +48,7 @@
     cursor: pointer;
 }
 #menu:hover > .menu_rect{
-    background-color: #178060;
+    background-color: #db432c;
 }
 .menu_rect{
     position: relative;
