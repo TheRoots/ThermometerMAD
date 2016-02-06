@@ -189,13 +189,11 @@ body{
 
 #parallax_bg h1{
     position: absolute;
-    height: 50%;
-    margin-top: -20px;
+    margin-top: 50%;
 }
 #parallax_bg h4{
     position: absolute;
-    height: 50%;
-    margin-top: 20px;
+    margin-top: 60%;
     max-width: 70%;
     text-align: center;
 }
