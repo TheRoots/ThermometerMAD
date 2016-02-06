@@ -134,11 +134,6 @@ body{
 .intro_bttn{
     font-family: "Arimo", sans-serif;
     display: inline-block;
-    padding: 8px;
-    margin-left: 16px;
-    margin-right: 16px;
-    padding-left: 24px;
-    padding-right: 24px;
     color: #fcfcfc;
     font-size: 22px;
     border: 2px solid #fcfcfc;
